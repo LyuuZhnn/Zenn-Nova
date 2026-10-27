@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08152b">
+  <meta name="description" content="ZENN NOVA — Premium TJKT Digital Toolkit untuk belajar jaringan komputer, Linux, cloud, MikroTik, topologi, dan telekomunikasi.">
+  <title>ZENN NOVA — Premium TJKT Digital Toolkit</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+  <link rel="stylesheet" href="css/themes.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/brand-polish.css">
+</head>
+<body>
+  <div class="ambient ambient-one" aria-hidden="true"></div><div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="Navigasi utama">
+      <a class="brand" href="#overview" aria-label="ZENN NOVA overview">
+        <span class="brand-mark"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M8 10h24L12 30h20"/><path d="M12 7v3M28 30v3"/><circle cx="8" cy="10" r="2"/><circle cx="32" cy="10" r="2"/><circle cx="32" cy="30" r="2"/></svg></span>
+        <span class="brand-copy"><strong>ZENN <b>NOVA</b></strong><small>TJKT DIGITAL TOOLKIT</small></span>
+      </a>
+      <div class="sidebar-scroll">
+        <div class="nav-group"><p class="nav-heading">GENERAL</p>
+          <a class="nav-link" href="#overview" data-route="overview"><span class="nav-icon" data-icon="overview"></span><span class="nav-label">Overview</span></a>
+          <a class="nav-link" href="#dashboard" data-route="dashboard"><span class="nav-icon" data-icon="dashboard"></span><span class="nav-label">Dashboard</span></a>
+        </div>
+        <div class="nav-group"><p class="nav-heading">ENGINEERING TOOLS</p>
+          <a class="nav-link" href="#calculators" data-route="calculators"><span class="nav-icon" data-icon="calculator"></span><span class="nav-label">Kalkulator Teknik</span></a>
+          <a class="nav-link" href="#network-tools" data-route="network-tools"><span class="nav-icon" data-icon="network"></span><span class="nav-label">Network Tools</span></a>
+          <a class="nav-link" href="#cisco" data-route="cisco"><span class="nav-icon" data-icon="router"></span><span class="nav-label">Cisco & Networking</span></a>
+          <a class="nav-link" href="#linux" data-route="linux"><span class="nav-icon" data-icon="terminal"></span><span class="nav-label">Terminal & Linux</span></a>
+          <a class="nav-link" href="#cloud" data-route="cloud"><span class="nav-icon" data-icon="cloud"></span><span class="nav-label">Server & Cloud</span></a>
+          <a class="nav-link" href="#mikrotik" data-route="mikrotik"><span class="nav-icon" data-icon="router"></span><span class="nav-label">MikroTik Lab</span></a>
+          <a class="nav-link" href="#topology" data-route="topology"><span class="nav-icon" data-icon="workflow"></span><span class="nav-label">Network Topology</span></a>
+          <a class="nav-link" href="#fiber" data-route="fiber"><span class="nav-icon" data-icon="cable"></span><span class="nav-label">Telekomunikasi & Fiber</span></a>
+        </div>
+        <div class="nav-group"><p class="nav-heading">LEARNING CENTER</p>
+          <a class="nav-link" href="#learning" data-route="learning"><span class="nav-icon" data-icon="book"></span><span class="nav-label">Materi & Panduan</span></a>
+          <a class="nav-link" href="#practice" data-route="practice"><span class="nav-icon" data-icon="quiz"></span><span class="nav-label">Latihan & Troubleshooting</span></a>
+        </div>
+        <div class="nav-group"><p class="nav-heading">WORKSPACE</p>
+          <a class="nav-link" href="#reports" data-route="reports"><span class="nav-icon" data-icon="file"></span><span class="nav-label">Laporan Praktikum</span></a>
+          <a class="nav-link" href="#notes" data-route="notes"><span class="nav-icon" data-icon="notes"></span><span class="nav-label">Favorit & Catatan</span></a>
+        </div>
+        <div class="nav-group"><p class="nav-heading">INFORMATION</p>
+          <a class="nav-link" href="#about" data-route="about"><span class="nav-icon" data-icon="info"></span><span class="nav-label">Tentang ZENN NOVA</span></a>
+        </div>
+      </div>
+      <div class="sidebar-bottom"><div class="status-dot"></div><div class="sidebar-status"><strong>Workspace Ready</strong><small>v1.0.0 · Browser local</small></div><button id="sidebarCollapse" class="icon-button collapse-button" aria-label="Perkecil sidebar" title="Perkecil sidebar"><span data-icon="collapse"></span></button></div>
+    </aside>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    <main class="main-area">
+      <header class="topbar">
+        <div class="topbar-left"><button id="menuToggle" class="icon-button menu-toggle" aria-label="Buka navigasi" aria-expanded="false"><span data-icon="menu"></span></button><div class="breadcrumb"><span>ZENN NOVA</span><i>/</i><strong id="breadcrumbCurrent">Overview</strong></div></div>
+        <div class="topbar-actions"><label class="global-search"><span data-icon="search"></span><input id="globalSearch" type="search" placeholder="Cari tools, materi, perintah…" autocomplete="off" aria-label="Pencarian global"><kbd>Ctrl K</kbd><button class="search-clear" id="clearSearch" aria-label="Hapus pencarian" hidden>×</button></label><div class="search-results" id="searchResults" hidden></div><button class="icon-button theme-toggle" id="themeToggle" aria-label="Ganti tema" title="Ganti tema"><span data-icon="theme"></span></button></div>
+      </header>
+      <div id="appContent" class="page-content" tabindex="-1"><div class="loading-state"><span class="loader"></span><p>Menyiapkan workspace ZENN NOVA…</p></div></div>
+      <footer class="global-footer"><span>© <span id="yearNow"></span> ZENN NOVA</span><span>Explore. Learn. Build. Beyond.</span><span class="footer-status"><i></i> Berjalan di browser</span></footer>
+    </main>
+  </div>
+  <div id="toastRegion" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <dialog id="confirmDialog" class="modal"><form method="dialog" class="modal-card"><div class="modal-header"><h2 id="confirmTitle">Konfirmasi</h2><button value="cancel" class="icon-button" aria-label="Tutup dialog">×</button></div><p id="confirmMessage">Apakah kamu yakin?</p><div class="modal-actions"><button value="cancel" class="btn btn-ghost">Batal</button><button value="confirm" id="confirmAction" class="btn btn-danger">Hapus</button></div></form></dialog>
+  <script src="js/storage.js"></script><script src="js/theme.js"></script><script src="js/navigation.js"></script><script src="js/search.js"></script><script src="js/calculators.js"></script><script src="js/network-tools.js"></script><script src="js/references.js"></script><script src="js/terminal.js"></script><script src="js/topology.js"></script><script src="js/fiber.js"></script><script src="js/quiz.js"></script><script src="js/reports.js"></script><script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+:root{color-scheme:dark;--bg-main:#08152b;--bg-sidebar:#071329;--bg-surface:#0b1b36;--bg-card:#132b50;--bg-card-raised:#18365f;--bg-soft:#10264a;--accent-blue:#397bff;--accent-cyan:#4bcde0;--accent-ice:#9be7f2;--accent-violet:#8870f7;--accent-lavender:#c6bdfe;--accent-teal:#6ed8c0;--text-primary:#f5f8ff;--text-secondary:#a7b6cc;--text-muted:#71839f;--border-color:rgba(157,187,225,.16);--border-strong:rgba(157,187,225,.29);--success:#45c79a;--warning:#f2b95f;--error:#f27786;--info:#64b7ff;--shadow-sm:0 5px 18px #02081726;--shadow-md:0 12px 32px #02081742;--shadow-glow:0 0 32px #397bff1c;--radius-sm:8px;--radius-md:14px;--radius-lg:20px;--radius-xl:26px;--sidebar-width:258px;--sidebar-collapsed:82px;--topbar-height:78px;--ease:cubic-bezier(.2,.7,.2,1);--focus:0 0 0 3px #4bcde055}
+html[data-theme="light"]{color-scheme:light;--bg-main:#edf3fa;--bg-sidebar:#f8faff;--bg-surface:#fff;--bg-card:#fff;--bg-card-raised:#f4f8ff;--bg-soft:#e9f1fc;--accent-blue:#2767e8;--accent-cyan:#158da8;--accent-ice:#397bff;--accent-violet:#7659dd;--accent-lavender:#6b56b4;--accent-teal:#168c73;--text-primary:#152945;--text-secondary:#4f6483;--text-muted:#7587a2;--border-color:rgba(30,63,107,.13);--border-strong:rgba(30,63,107,.23);--shadow-sm:0 5px 18px #16345d0b;--shadow-md:0 12px 32px #16345d12;--shadow-glow:0 0 28px #397bff0d}
+
+/* ZENN NOVA shared accent tokens used by the visual and icon systems. */
+:root {
+  --accent-amber: #f2b95f;
+  --icon-blue: #79aaff;
+  --icon-cyan: #5ce1e6;
+  --icon-violet: #b2a0ff;
+  --icon-teal: #75e0c0;
+  --icon-ice: #9be7f2;
+  --icon-amber: #ffc978;
+  --bg-glow-blue: rgba(57, 123, 255, .20);
+  --bg-glow-cyan: rgba(75, 205, 224, .12);
+  --bg-glow-violet: rgba(136, 112, 247, .10);
+}
+html[data-theme="light"] {
+  --accent-amber: #a86b09;
+  --icon-blue: #2767e8;
+  --icon-cyan: #087f98;
+  --icon-violet: #6b50cc;
+  --icon-teal: #087d68;
+  --icon-ice: #2767e8;
+  --icon-amber: #956009;
+  --bg-glow-blue: rgba(57, 123, 255, .075);
+  --bg-glow-cyan: rgba(21, 141, 168, .055);
+  --bg-glow-violet: rgba(118, 89, 221, .045);
+}
